@@ -1,0 +1,26 @@
+%YAML 1.3
+---
+- Key: [Lang Switch, pressed]
+- KeyPress:
+  - Insert
+  - click
+...
+---
+- Rule:
+  - Key: [Left Tilt, pressed]
+  - KeyPress:
+    - XF86_AudioLowerVolume
+    - click
+- Rule:
+  - Key: [Right Tilt, pressed]
+  - KeyPress:
+    - XF86_AudioRaiseVolume
+    - click
+...
+---
+- Rule:
+  - Key: [MultiPlatform Gesture Button, released]
+  - KeyPress:
+    - XF86_AudioPlay
+    - click
+...
