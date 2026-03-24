@@ -24,3 +24,13 @@
     - XF86_AudioPlay
     - click
 ...
+---
+- Key: [Screen Capture, pressed]
+- KeyPress:
+  - [Control_L, Alt_L, x]
+  - click
+...
+---
+- Key: [Calculator, pressed]
+- Execute: [bash, reconnect_vpn]
+...
